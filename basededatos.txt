@@ -1,0 +1,8 @@
+create schema demopatronesjsf;
+
+create table pelicula(
+	id_pelicula int not null auto_increment,
+	nombre varchar(45),
+	sinapsis varchar(350),
+	primary key(id_pelicula)
+);
